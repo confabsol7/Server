@@ -44,6 +44,8 @@ class ParkingLocation(db.Model):
     daily_price = db.Column(db.Numeric(10, 2))
     weekly_price = db.Column(db.Numeric(10, 2))
     monthly_price = db.Column(db.Numeric(10, 2))
+    zipcode = db.Column(db.Integer, nullable=False)
+    category = db.Column(db.Enum('Free', 'Paid'), nullable=False)
     rating = db.Column(db.Numeric(3, 2))
 
     # Relationships
@@ -57,13 +59,14 @@ class ParkingLocation(db.Model):
             "latitude": self.latitude,
             "longitude": self.longitude,
             "total_spots": self.total_spots,
-
+            "zipcode": self.zipcode,
             "available_spots": self.available_spots,
             "hourly_price": self.hourly_price,
             "daily_price": self.daily_price,
             "weekly_price": self.weekly_price,
             "monthly_price": self.monthly_price,
-            "rating": self.rating
+            "rating": self.rating,
+            "category": self.category
         }
 
     # def __repr__(self):
@@ -114,6 +117,27 @@ class Review(db.Model):
     def __repr__(self):
         return f"<Review {self.review_id}, Rating: {self.rating}>"
 
+# mycars Table
+class mycars(db.Model):
+    __tablename__ = 'mycars'
+    carid = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.user_id', ondelete='CASCADE'), nullable=False)
+    model = db.Column(db.Text, nullable=False)
+    carnumber = db.Column(db.Text, nullable=False)
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    
+    def to_dict(self):
+        return {
+            "user_id": self.user_id,
+            "carid": self.carid,
+            "model": self.model,
+            "carnumber": self.carnumber,
+            "created_at": self.created_at.strftime('%Y-%m-%d %H:%M:%S')
+        }
+        
+    #def __repr__(self):
+    #    return f"<mycars {self.carid}, CarNumber: {self.carnumber}>"
+        
 # Advertisements Table
 class Advertisement(db.Model):
     __tablename__ = 'advertisements'
