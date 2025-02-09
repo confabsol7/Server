@@ -12,8 +12,17 @@ from routes.mycars import mycars_routes
 #import googlemaps  # Correct library for Google Places API
 from config import Config
 from models import User, ParkingLocation, Booking, Payment, Review, Advertisement, mycars
+import logging
 
 app = Flask(__name__)
+
+logging.basicConfig(
+    filename='app.log',  # Log file name
+    level=logging.DEBUG,  # Log all debug messages
+    format='%(asctime)s - %(levelname)s - %(message)s'  # Format: Time, Level, Message
+)
+
+app.logger.info("Flask app started!")
 
 def create_app():
     
@@ -68,4 +77,4 @@ if __name__ == '__main__':
         db.create_all()  # Initialize the database
         print("tables created")
     #app.run(debug=True)
-    app.run(host="0.0.0.0", port=5000   , debug=True)
+    app.run(host="0.0.0.0", port=8080   , debug=True)

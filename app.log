@@ -1,0 +1,127 @@
+2025-02-07 19:28:12,624 - INFO - Flask app started!
+2025-02-07 19:28:12,649 - INFO - BEGIN (implicit)
+2025-02-07 19:28:12,649 - INFO - PRAGMA main.table_info("users")
+2025-02-07 19:28:12,649 - INFO - [raw sql] ()
+2025-02-07 19:28:12,650 - INFO - PRAGMA main.table_info("parking_locations")
+2025-02-07 19:28:12,650 - INFO - [raw sql] ()
+2025-02-07 19:28:12,651 - INFO - PRAGMA main.table_info("bookings")
+2025-02-07 19:28:12,651 - INFO - [raw sql] ()
+2025-02-07 19:28:12,652 - INFO - PRAGMA main.table_info("payments")
+2025-02-07 19:28:12,652 - INFO - [raw sql] ()
+2025-02-07 19:28:12,652 - INFO - PRAGMA main.table_info("reviews")
+2025-02-07 19:28:12,652 - INFO - [raw sql] ()
+2025-02-07 19:28:12,653 - INFO - PRAGMA main.table_info("mycars")
+2025-02-07 19:28:12,653 - INFO - [raw sql] ()
+2025-02-07 19:28:12,654 - INFO - PRAGMA main.table_info("advertisements")
+2025-02-07 19:28:12,654 - INFO - [raw sql] ()
+2025-02-07 19:28:12,654 - INFO - COMMIT
+2025-02-07 19:28:12,674 - WARNING -  * Debugger is active!
+2025-02-07 19:28:12,675 - INFO -  * Debugger PIN: 116-950-750
+2025-02-07 19:28:35,917 - INFO -  * Detected change in 'C:\\Users\\admin\\Documents\\ParkAssist\\Server\\routes\\parking.py', reloading
+2025-02-07 19:28:36,680 - INFO - Flask app started!
+2025-02-07 19:28:36,705 - INFO - BEGIN (implicit)
+2025-02-07 19:28:36,705 - INFO - PRAGMA main.table_info("users")
+2025-02-07 19:28:36,706 - INFO - [raw sql] ()
+2025-02-07 19:28:36,706 - INFO - PRAGMA main.table_info("parking_locations")
+2025-02-07 19:28:36,707 - INFO - [raw sql] ()
+2025-02-07 19:28:36,707 - INFO - PRAGMA main.table_info("bookings")
+2025-02-07 19:28:36,707 - INFO - [raw sql] ()
+2025-02-07 19:28:36,708 - INFO - PRAGMA main.table_info("payments")
+2025-02-07 19:28:36,708 - INFO - [raw sql] ()
+2025-02-07 19:28:36,708 - INFO - PRAGMA main.table_info("reviews")
+2025-02-07 19:28:36,709 - INFO - [raw sql] ()
+2025-02-07 19:28:36,709 - INFO - PRAGMA main.table_info("mycars")
+2025-02-07 19:28:36,709 - INFO - [raw sql] ()
+2025-02-07 19:28:36,710 - INFO - PRAGMA main.table_info("advertisements")
+2025-02-07 19:28:36,710 - INFO - [raw sql] ()
+2025-02-07 19:28:36,710 - INFO - COMMIT
+2025-02-07 19:28:36,730 - WARNING -  * Debugger is active!
+2025-02-07 19:28:36,731 - INFO -  * Debugger PIN: 116-950-750
+2025-02-07 19:28:49,856 - INFO -  * Detected change in 'C:\\Users\\admin\\Documents\\ParkAssist\\Server\\routes\\parking.py', reloading
+2025-02-07 19:28:50,570 - INFO - Flask app started!
+2025-02-07 19:28:50,593 - INFO - BEGIN (implicit)
+2025-02-07 19:28:50,593 - INFO - PRAGMA main.table_info("users")
+2025-02-07 19:28:50,593 - INFO - [raw sql] ()
+2025-02-07 19:28:50,594 - INFO - PRAGMA main.table_info("parking_locations")
+2025-02-07 19:28:50,594 - INFO - [raw sql] ()
+2025-02-07 19:28:50,595 - INFO - PRAGMA main.table_info("bookings")
+2025-02-07 19:28:50,595 - INFO - [raw sql] ()
+2025-02-07 19:28:50,595 - INFO - PRAGMA main.table_info("payments")
+2025-02-07 19:28:50,596 - INFO - [raw sql] ()
+2025-02-07 19:28:50,596 - INFO - PRAGMA main.table_info("reviews")
+2025-02-07 19:28:50,596 - INFO - [raw sql] ()
+2025-02-07 19:28:50,597 - INFO - PRAGMA main.table_info("mycars")
+2025-02-07 19:28:50,597 - INFO - [raw sql] ()
+2025-02-07 19:28:50,597 - INFO - PRAGMA main.table_info("advertisements")
+2025-02-07 19:28:50,597 - INFO - [raw sql] ()
+2025-02-07 19:28:50,598 - INFO - COMMIT
+2025-02-07 19:28:50,615 - WARNING -  * Debugger is active!
+2025-02-07 19:28:50,616 - INFO -  * Debugger PIN: 116-950-750
+2025-02-07 19:29:07,778 - INFO -  * Detected change in 'C:\\Users\\admin\\Documents\\ParkAssist\\Server\\routes\\parking.py', reloading
+2025-02-07 19:29:08,534 - INFO - Flask app started!
+2025-02-07 19:29:08,560 - INFO - BEGIN (implicit)
+2025-02-07 19:29:08,560 - INFO - PRAGMA main.table_info("users")
+2025-02-07 19:29:08,561 - INFO - [raw sql] ()
+2025-02-07 19:29:08,562 - INFO - PRAGMA main.table_info("parking_locations")
+2025-02-07 19:29:08,562 - INFO - [raw sql] ()
+2025-02-07 19:29:08,562 - INFO - PRAGMA main.table_info("bookings")
+2025-02-07 19:29:08,562 - INFO - [raw sql] ()
+2025-02-07 19:29:08,563 - INFO - PRAGMA main.table_info("payments")
+2025-02-07 19:29:08,563 - INFO - [raw sql] ()
+2025-02-07 19:29:08,564 - INFO - PRAGMA main.table_info("reviews")
+2025-02-07 19:29:08,564 - INFO - [raw sql] ()
+2025-02-07 19:29:08,564 - INFO - PRAGMA main.table_info("mycars")
+2025-02-07 19:29:08,565 - INFO - [raw sql] ()
+2025-02-07 19:29:08,565 - INFO - PRAGMA main.table_info("advertisements")
+2025-02-07 19:29:08,565 - INFO - [raw sql] ()
+2025-02-07 19:29:08,566 - INFO - COMMIT
+2025-02-07 19:29:08,584 - WARNING -  * Debugger is active!
+2025-02-07 19:29:08,586 - INFO -  * Debugger PIN: 116-950-750
+2025-02-07 19:29:38,909 - INFO -  * Detected change in 'C:\\Users\\admin\\Documents\\ParkAssist\\Server\\routes\\parking.py', reloading
+2025-02-07 19:29:39,638 - INFO - Flask app started!
+2025-02-07 19:29:39,663 - INFO - BEGIN (implicit)
+2025-02-07 19:29:39,664 - INFO - PRAGMA main.table_info("users")
+2025-02-07 19:29:39,664 - INFO - [raw sql] ()
+2025-02-07 19:29:39,665 - INFO - PRAGMA main.table_info("parking_locations")
+2025-02-07 19:29:39,665 - INFO - [raw sql] ()
+2025-02-07 19:29:39,665 - INFO - PRAGMA main.table_info("bookings")
+2025-02-07 19:29:39,666 - INFO - [raw sql] ()
+2025-02-07 19:29:39,666 - INFO - PRAGMA main.table_info("payments")
+2025-02-07 19:29:39,666 - INFO - [raw sql] ()
+2025-02-07 19:29:39,667 - INFO - PRAGMA main.table_info("reviews")
+2025-02-07 19:29:39,667 - INFO - [raw sql] ()
+2025-02-07 19:29:39,667 - INFO - PRAGMA main.table_info("mycars")
+2025-02-07 19:29:39,668 - INFO - [raw sql] ()
+2025-02-07 19:29:39,668 - INFO - PRAGMA main.table_info("advertisements")
+2025-02-07 19:29:39,668 - INFO - [raw sql] ()
+2025-02-07 19:29:39,669 - INFO - COMMIT
+2025-02-07 19:29:39,686 - WARNING -  * Debugger is active!
+2025-02-07 19:29:39,687 - INFO -  * Debugger PIN: 116-950-750
+2025-02-07 19:30:04,127 - INFO - BEGIN (implicit)
+2025-02-07 19:30:04,129 - INFO - SELECT mycars.carid AS mycars_carid, mycars.user_id AS mycars_user_id, mycars.model AS mycars_model, mycars.carnumber AS mycars_carnumber, mycars.created_at AS mycars_created_at 
+FROM mycars 
+WHERE mycars.user_id = ?
+2025-02-07 19:30:04,130 - INFO - [generated in 0.00032s] (1,)
+2025-02-07 19:30:04,131 - INFO - ROLLBACK
+2025-02-07 19:30:04,131 - INFO - 192.168.29.23 - - [07/Feb/2025 19:30:04] "GET /mycars/1 HTTP/1.1" 200 -
+2025-02-07 19:30:04,176 - INFO - 192.168.29.23 - - [07/Feb/2025 19:30:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-07 19:30:11,105 - INFO - BEGIN (implicit)
+2025-02-07 19:30:11,107 - INFO - SELECT parking_locations.location_id AS parking_locations_location_id, parking_locations.manager_id AS parking_locations_manager_id, parking_locations.address AS parking_locations_address, parking_locations.latitude AS parking_locations_latitude, parking_locations.longitude AS parking_locations_longitude, parking_locations.total_spots AS parking_locations_total_spots, parking_locations.available_spots AS parking_locations_available_spots, parking_locations.hourly_price AS parking_locations_hourly_price, parking_locations.daily_price AS parking_locations_daily_price, parking_locations.weekly_price AS parking_locations_weekly_price, parking_locations.monthly_price AS parking_locations_monthly_price, parking_locations.zipcode AS parking_locations_zipcode, parking_locations.category AS parking_locations_category, parking_locations.rating AS parking_locations_rating 
+FROM parking_locations
+2025-02-07 19:30:11,108 - INFO - [generated in 0.00054s] ()
+2025-02-07 19:30:11,110 - INFO - ROLLBACK
+2025-02-07 19:30:11,110 - INFO - 192.168.29.23 - - [07/Feb/2025 19:30:11] "GET /parking/all HTTP/1.1" 200 -
+2025-02-07 19:30:58,281 - INFO - BEGIN (implicit)
+2025-02-07 19:30:58,282 - INFO - SELECT parking_locations.location_id AS parking_locations_location_id, parking_locations.manager_id AS parking_locations_manager_id, parking_locations.address AS parking_locations_address, parking_locations.latitude AS parking_locations_latitude, parking_locations.longitude AS parking_locations_longitude, parking_locations.total_spots AS parking_locations_total_spots, parking_locations.available_spots AS parking_locations_available_spots, parking_locations.hourly_price AS parking_locations_hourly_price, parking_locations.daily_price AS parking_locations_daily_price, parking_locations.weekly_price AS parking_locations_weekly_price, parking_locations.monthly_price AS parking_locations_monthly_price, parking_locations.zipcode AS parking_locations_zipcode, parking_locations.category AS parking_locations_category, parking_locations.rating AS parking_locations_rating 
+FROM parking_locations
+2025-02-07 19:30:58,283 - INFO - [cached since 47.18s ago] ()
+2025-02-07 19:30:58,286 - INFO - ROLLBACK
+2025-02-07 19:30:58,287 - INFO - 192.168.29.92 - - [07/Feb/2025 19:30:58] "GET /parking/all HTTP/1.1" 200 -
+2025-02-07 19:30:59,007 - INFO - BEGIN (implicit)
+2025-02-07 19:30:59,009 - INFO - SELECT parking_locations.location_id AS parking_locations_location_id, parking_locations.manager_id AS parking_locations_manager_id, parking_locations.address AS parking_locations_address, parking_locations.latitude AS parking_locations_latitude, parking_locations.longitude AS parking_locations_longitude, parking_locations.total_spots AS parking_locations_total_spots, parking_locations.available_spots AS parking_locations_available_spots, parking_locations.hourly_price AS parking_locations_hourly_price, parking_locations.daily_price AS parking_locations_daily_price, parking_locations.weekly_price AS parking_locations_weekly_price, parking_locations.monthly_price AS parking_locations_monthly_price, parking_locations.zipcode AS parking_locations_zipcode, parking_locations.category AS parking_locations_category, parking_locations.rating AS parking_locations_rating 
+FROM parking_locations
+2025-02-07 19:30:59,010 - INFO - [cached since 47.9s ago] ()
+2025-02-07 19:30:59,014 - INFO - ROLLBACK
+2025-02-07 19:30:59,015 - INFO - 192.168.29.92 - - [07/Feb/2025 19:30:59] "GET /parking/all HTTP/1.1" 200 -
+2025-02-07 19:31:25,480 - INFO - 192.168.29.92 - - [07/Feb/2025 19:31:25] "[31m[1mPUT /parking/add/1 HTTP/1.1[0m" 400 -
+2025-02-07 19:34:25,583 - INFO -  * Detected change in 'C:\\Users\\admin\\Documents\\ParkAssist\\Server\\routes\\parking.py', reloading

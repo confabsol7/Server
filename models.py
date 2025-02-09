@@ -56,17 +56,18 @@ class ParkingLocation(db.Model):
         return {
             "location_id": self.location_id,
             "manager_id": self.manager_id,
+            "address": self.address,
             "latitude": self.latitude,
             "longitude": self.longitude,
             "total_spots": self.total_spots,
-            "zipcode": self.zipcode,
             "available_spots": self.available_spots,
             "hourly_price": self.hourly_price,
             "daily_price": self.daily_price,
             "weekly_price": self.weekly_price,
             "monthly_price": self.monthly_price,
-            "rating": self.rating,
-            "category": self.category
+            "category": self.category,
+            "zipcode": self.zipcode,
+            "rating": self.rating
         }
 
     # def __repr__(self):
