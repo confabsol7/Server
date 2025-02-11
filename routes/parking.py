@@ -1,6 +1,7 @@
 from flask import Blueprint, request, jsonify
 from models import ParkingLocation, db
 import logging
+from sqlalchemy import text
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -82,3 +83,31 @@ def add_parking(manager_id):
         db.session.rollback()
         logging.error(f"Error adding parking: {str(e)}")
         return jsonify({"error": str(e)}), 400
+
+
+
+@parking_routes.route('/nearby', methods=['GET'])
+def get_nearby_parkings():
+    latitude = request.args.get('latitude', type=float)
+    longitude = request.args.get('longitude', type=float)
+    radius_km = request.args.get('radius', default=2, type=int)
+    earth_radius = 6371
+    query = text("""
+    select * from (
+        SELECT *, 
+            ( 
+                3959 * acos(cos(radians(:lat)) * cos(radians(latitude))
+                     * cos(radians(longitude) - radians(:lng)) 
+                   +  sin(radians(:lat)) * sin(radians(latitude))
+                )
+            ) AS distance
+        FROM parking_locations
+        ) as subquery
+        WHERE distance <= :radius_km  -- ✅ Replace HAVING with WHERE
+    """)
+
+    params = {"lat": latitude, "lng": longitude, "radius_km": radius_km}
+
+    result = db.session.execute(query, params) #.fetchall()
+    parkings = result.mappings().all()
+    return jsonify([dict(row) for row in parkings]), 200
