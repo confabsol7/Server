@@ -6,9 +6,9 @@ mycars_routes = Blueprint('mycars', __name__)
 @mycars_routes.route('/all', methods=['GET'])
 def get_mycars():
     Mycars = mycars.query.all()
-    return jsonify([Mycars.to_dict() for mycar in Mycars]), 200
+    return jsonify([mycar.to_dict() for mycar in Mycars]), 200
 
-@mycars_routes.route('/<int:user_id>', methods=['GET'])
+@mycars_routes.route('/<string:user_id>', methods=['GET'])
 def get_mycars_userid(user_id):
     Mycars = mycars.query.filter_by(user_id=user_id).all()
     if mycars:
@@ -16,9 +16,21 @@ def get_mycars_userid(user_id):
     return jsonify({"error": "cars not found"}), 404
 
     
+# ✅ Delete a Car by ID
+@mycars_routes.route('/<int:car_id>', methods=['DELETE'])
+def delete_car(car_id):
+    car = mycars.query.get(car_id)
+    if not car:
+        return jsonify({"error": "Car not found"}), 404  # 🚨 Handle car not found
+
+    db.session.delete(car)
+    db.session.commit()
+    
+    return jsonify({"message": "Car deleted successfully", "car_id": car_id}), 200
+
 #@mycars_routes.route('/', methods=['POST'])
-@mycars_routes.route('/<int:user_id>', methods=['POST'])
-def add_mycar():
+@mycars_routes.route('/<string:user_id>', methods=['POST'])
+def add_mycar(user_id):
     data = request.get_json()  # ✅ Ensure JSON request is properly extracted
     if not data:
         return jsonify({"error": "Invalid JSON"}), 400

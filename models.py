@@ -138,7 +138,7 @@ class Review(db.Model):
 class mycars(db.Model):
     __tablename__ = 'mycars'
     carid = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    user_id = db.Column(db.Integer, db.ForeignKey('users.user_id', ondelete='CASCADE'), nullable=False)
+    user_id = db.Column(db.Text, db.ForeignKey('users.pa_user_id', ondelete='CASCADE'), nullable=False)
     model = db.Column(db.Text, nullable=False)
     carnumber = db.Column(db.Text, nullable=False)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
